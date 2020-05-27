@@ -1,0 +1,30 @@
+{
+  "name": "the-way-examples",
+  "version": "1.0.0",
+  "description": "Examples of the way using",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "nodemon --config nodemon.json --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nihasoft/the-way-examples.git"
+  },
+  "keywords": [
+    "the",
+    "way",
+    "examples"
+  ],
+  "author": "hanor sátiro cintra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nihasoft/the-way-examples/issues"
+  },
+  "homepage": "https://github.com/nihasoft/the-way-examples#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.3"
+  }
+}
