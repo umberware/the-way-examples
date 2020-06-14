@@ -1,8 +1,7 @@
 import { Get } from '@nihasoft/the-way';
 import { Observable, of } from 'rxjs';
 
-export class HeroRest
- {
+export class HeroRest {
     @Get('/hero')
     public getHero(): Observable<{id: number, name: string, power: number}> {
         return of({

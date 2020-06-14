@@ -1,7 +1,7 @@
 import { TheWayApplication, Application, Inject, CORE, SecurityService} from '@nihasoft/the-way'
 import { InjectionExample } from './injection-example';
-import { HeroRest} from './hero.rest';
-import { DestructableConfiguration } from './destructable.configuration';
+import { HeroRest} from './rest/hero.rest';
+import { DestructableConfiguration } from './configuration/destructable.configuration';
 
 @Application()
 export class Main extends TheWayApplication {

@@ -2,5 +2,5 @@
     "watch": ["src"],
     "ext": "ts",
     "ignore": ["src/**/*.spec.ts", "node_modules/**", "src/**/*.js"],
-    "exec": "ts-node src/main/fast-setup/main.ts"
+    "exec": "yarn execute"
   }

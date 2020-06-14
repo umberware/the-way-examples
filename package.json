@@ -5,6 +5,12 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "execute": "ts-node src/main/rest-decorator/main.ts",
+    "execute-rest-example": "ts-node src/main/rest-decorator/main.ts",
+    "execute-application-default-example": "ts-node src/main/application-decorator/main.ts",
+    "execute-application-not-automatic-example": "ts-node src/main/application-decorator/not-automatic-main.ts",
+    "execute-application-custom-example": "ts-node src/main/application-decorator/custom-main.ts",
+    "execute-fast-setup-example": "ts-node src/main/fast-setup/main.ts",
     "serve": "nodemon --config nodemon.json --watch"
   },
   "repository": {
