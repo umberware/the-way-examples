@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nihasoft/the-way-examples#readme",
   "dependencies": {
-    "@nihasoft/the-way": "^0.4.1"
+    "@nihasoft/the-way": "^0.5.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.4",
