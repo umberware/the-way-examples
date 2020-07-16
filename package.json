@@ -29,9 +29,11 @@
   },
   "homepage": "https://github.com/nihasoft/the-way-examples#readme",
   "dependencies": {
-    "@nihasoft/the-way": "^0.6.5"
+    "@nihasoft/the-way": "^0.6.6",
+    "rxjs": "^6.6.0"
   },
   "devDependencies": {
+    "@types/node": "^14.0.13",
     "nodemon": "^2.0.4",
     "ts-node": "^8.10.1",
     "typescript": "^3.9.3"
