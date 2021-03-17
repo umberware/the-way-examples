@@ -1,0 +1,6 @@
+the-way:
+    core:
+        log:
+            level: 0
+        scan:
+            enabled: false

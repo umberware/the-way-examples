@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "execute": "ts-node src/main/rest-decorator/main.ts",
-    "execute-rest-example": "ts-node src/main/rest-decorator/main.ts",
+    "execute": "ts-node src/main/application/main.ts",
+    "execute-rest-example": "ts-node src/main/application/main.ts",
     "execute-application-default-example": "ts-node src/main/application-decorator/main.ts",
     "execute-application-not-automatic-example": "ts-node src/main/application-decorator/not-automatic-main.ts",
     "execute-application-custom-example": "ts-node src/main/application-decorator/custom-main.ts",
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/nihasoft/the-way-examples#readme",
   "dependencies": {
-    "@nihasoft/the-way": "^0.6.6",
+    "@umberware/the-way": "^0.6.7-Beta.2",
     "rxjs": "^6.6.0"
   },
   "devDependencies": {
