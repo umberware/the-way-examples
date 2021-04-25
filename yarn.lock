@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@umberware/the-way@1.0.0-Beta.0.8":
-  version "1.0.0-Beta.0.8"
-  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.0.8.tgz#f1fd0e873a9267343e84a127824e94f6546b5f37"
-  integrity sha512-APgeX5W120T3RsAJfU2BK1dbknlQqTQ0jfYTB4YFkfHelN+No4pMiLzKhiqKyCGA5GY4bOiQ6kyIUOhpA4FjvA==
+"@umberware/the-way@1.0.0-Beta.0.10":
+  version "1.0.0-Beta.0.10"
+  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.0.10.tgz#e12948146ad229b1597c733eb4929c4c15d73ec2"
+  integrity sha512-+ossgdi35Nt3amNLFWn+Z7GzFU9dO60nu91BB7ELCCAZZvP5zIh8nuj1beumLylTW0eXfpYnEpJ77UU6nWxKJw==
   dependencies:
     body-parser "^1.19.0"
     cors "^2.8.5"
