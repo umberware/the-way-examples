@@ -23,6 +23,6 @@
         "typescript": "^4.2.4"
     },
     "dependencies": {
-        "@umberware/the-way": "^1.0.0-Beta.0.2"
+        "@umberware/the-way": "1.0.0-Beta.0.8"
     }
 }
