@@ -1,6 +1,0 @@
-{
-    "watch": ["src", "../the-way/dist"],
-    "ext": "ts",
-    "ignore": ["src/**/*.spec.ts", "node_modules/**", "src/**/*.js"],
-    "exec": "yarn execute"
-  }

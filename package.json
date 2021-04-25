@@ -1,41 +1,28 @@
 {
-  "name": "the-way-examples",
-  "version": "1.0.0",
-  "description": "Examples of the way using",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "execute": "ts-node src/main/application/main.ts",
-    "execute-rest-example": "ts-node src/main/application/main.ts",
-    "execute-application-default-example": "ts-node src/main/application-decorator/main.ts",
-    "execute-application-not-automatic-example": "ts-node src/main/application-decorator/not-automatic-main.ts",
-    "execute-application-custom-example": "ts-node src/main/application-decorator/custom-main.ts",
-    "execute-fast-setup-example": "ts-node src/main/fast-setup/main.ts",
-    "serve": "nodemon --config nodemon.json --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nihasoft/the-way-examples.git"
-  },
-  "keywords": [
-    "the",
-    "way",
-    "examples"
-  ],
-  "author": "hanor sátiro cintra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nihasoft/the-way-examples/issues"
-  },
-  "homepage": "https://github.com/nihasoft/the-way-examples#readme",
-  "dependencies": {
-    "@umberware/the-way": "^0.6.7-Beta.2",
-    "rxjs": "^6.6.0"
-  },
-  "devDependencies": {
-    "@types/node": "^14.0.13",
-    "nodemon": "^2.0.4",
-    "ts-node": "^8.10.1",
-    "typescript": "^3.9.3"
-  }
+    "name": "the-way-examples",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "serve": "ts-node src/main/main.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/umberware/the-way-examples.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/umberware/the-way-examples/issues"
+    },
+    "homepage": "https://github.com/umberware/the-way-examples#readme",
+    "devDependencies": {
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.4"
+    },
+    "dependencies": {
+        "@umberware/the-way": "^1.0.0-Beta.0.2"
+    }
 }
