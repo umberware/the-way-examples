@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@umberware/the-way@1.0.0-Beta.0.10":
-  version "1.0.0-Beta.0.10"
-  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.0.10.tgz#e12948146ad229b1597c733eb4929c4c15d73ec2"
-  integrity sha512-+ossgdi35Nt3amNLFWn+Z7GzFU9dO60nu91BB7ELCCAZZvP5zIh8nuj1beumLylTW0eXfpYnEpJ77UU6nWxKJw==
+"@umberware/the-way@^1.0.0-Beta.0.23":
+  version "1.0.0-Beta.0.23"
+  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.0.23.tgz#c5e9f16b7a5929d9a7f5a8094bce45bd279a096d"
+  integrity sha512-HCLii0MHTRTdtEVx7doBWpmg3oJqWSNtnPwOD1cfJ5WaPCwroez47u4UrOjsJiC1asx3qedy3XQ2JAOahN56ow==
   dependencies:
     body-parser "^1.19.0"
     cors "^2.8.5"
@@ -223,9 +223,9 @@ fresh@0.5.2:
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
 helmet@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.5.0.tgz#da5a75d30cbd9f60628e9463a85dc7725806c2ea"
-  integrity sha512-GfxdTaKarneWOpxmiVb/1YsY+fIwDOxVUGrvNEM1MC8W6Z2PREfkXiWF4XHQdvkyXwUTHuY4DRwB0uH/Q6BVyQ==
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.6.0.tgz#579971196ba93c5978eb019e4e8ec0e50076b4df"
+  integrity sha512-HVqALKZlR95ROkrnesdhbbZJFi/rIVSoNq6f3jA/9u6MIbTsPh3xZwihjeI5+DO/2sOV6HMHooXcEOuwskHpTg==
 
 http-errors@1.7.2:
   version "1.7.2"
