@@ -4,8 +4,11 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "tsc",
-        "serve": "ts-node src/main/main.ts",
+        "build-main-only-example": "tsc --p tsconfig-main-only.json",
+        "serve-main-only-example": "ts-node -P tsconfig-main-only.json examples/main-only/src/main/main.ts",
+        "build-heroes-rest-example": "tsc --p tsconfig-heroes-rest.json",
+        "serve-heroes-rest-example": "ts-node -P tsconfig-heroes-rest.json examples/heroes-rest/src/main/main.ts",
+        "run-heroes-rest-example": "yarn build-heroes-rest-example && node dist/examples/heroes-rest/src/main/main.js --the-way.core.scan.enabled=true --the-way.core.scan.path=dist/examples/heroes-rest/src/main",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -19,10 +22,12 @@
     },
     "homepage": "https://github.com/umberware/the-way-examples#readme",
     "devDependencies": {
+        "@types/node": "^15.3.0",
         "ts-node": "^9.1.1",
         "typescript": "^4.2.4"
     },
     "dependencies": {
-        "@umberware/the-way": "^1.0.0-Beta.0.23"
+        "@umberware/the-way": "^1.0.0-Beta.1",
+        "rxjs": "6.6.7"
     }
 }

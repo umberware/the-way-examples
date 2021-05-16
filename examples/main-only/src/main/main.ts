@@ -1,8 +1,8 @@
-import { Application, TheWayApplication, Inject, Logger } from '@umberware/the-way';
+import { Application, TheWayApplication, Inject, CoreLogger } from '@umberware/the-way';
 
 @Application()
 export class Main extends TheWayApplication {
-    @Inject logger: Logger;
+    @Inject logger: CoreLogger;
 
     public start(): void {
         this.logger.info('Hello World');

@@ -2,15 +2,20 @@
 # yarn lockfile v1
 
 
-"@umberware/the-way@^1.0.0-Beta.0.23":
-  version "1.0.0-Beta.0.23"
-  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.0.23.tgz#c5e9f16b7a5929d9a7f5a8094bce45bd279a096d"
-  integrity sha512-HCLii0MHTRTdtEVx7doBWpmg3oJqWSNtnPwOD1cfJ5WaPCwroez47u4UrOjsJiC1asx3qedy3XQ2JAOahN56ow==
+"@types/node@^15.3.0":
+  version "15.3.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.3.0.tgz#d6fed7d6bc6854306da3dea1af9f874b00783e26"
+  integrity sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==
+
+"@umberware/the-way@^1.0.0-Beta.1":
+  version "1.0.0-Beta.1"
+  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.1.tgz#8f4e646dc03e70005b924bb18b126715c8f92576"
+  integrity sha512-8h5rSJjkpAL+EleBzR0bjVKL9DjblpPekon6ZiGNWxdVp/758XYF3Q9JQ6CKzOpQo1Gurhiaf5Rm/E3egRh7ug==
   dependencies:
     body-parser "^1.19.0"
     cors "^2.8.5"
     express "^4.17.1"
-    helmet "^4.5.0"
+    helmet "^4.6.0"
     jsonwebtoken "^8.5.1"
     morgan "^1.10.0"
     reflect-metadata "^0.1.13"
@@ -222,7 +227,7 @@ fresh@0.5.2:
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
 
-helmet@^4.5.0:
+helmet@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/helmet/-/helmet-4.6.0.tgz#579971196ba93c5978eb019e4e8ec0e50076b4df"
   integrity sha512-HVqALKZlR95ROkrnesdhbbZJFi/rIVSoNq6f3jA/9u6MIbTsPh3xZwihjeI5+DO/2sOV6HMHooXcEOuwskHpTg==
@@ -467,7 +472,7 @@ reflect-metadata@^0.1.13:
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
-rxjs@^6.6.7:
+rxjs@6.6.7, rxjs@^6.6.7:
   version "6.6.7"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
   integrity sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==
