@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-15.3.0.tgz#d6fed7d6bc6854306da3dea1af9f874b00783e26"
   integrity sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==
 
-"@umberware/the-way@^1.0.0-Beta.1.5":
-  version "1.0.0-Beta.1.5"
-  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.1.5.tgz#ea086a4426b625bb0469d8a4a20d5a5d2bfe12c1"
-  integrity sha512-69Wv4zU/kTJJ9pLPgkjv/AeaXIng6Y0kgSWzr8WKRL/0wuJ5NL0YDIonOGcflFFVrUjFXo+BYQ620UFzxLHJ8w==
+"@umberware/the-way@^1.0.0-Beta.2.5":
+  version "1.0.0-Beta.2.5"
+  resolved "https://registry.yarnpkg.com/@umberware/the-way/-/the-way-1.0.0-Beta.2.5.tgz#520353e4921dc9b458e1aed70e762ae0b68b1124"
+  integrity sha512-Ztr8Ztdg1PAeU2OPoqEKUBmOudLajzgPqrYhsrnov3ZGtOGlMgXe0Lu5Pv4DqOTwcNFEyk+V+7ramiFkLFOb4Q==
   dependencies:
     body-parser "^1.19.0"
     cors "^2.8.5"

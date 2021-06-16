@@ -6,9 +6,11 @@
     "scripts": {
         "build-main-only-example": "tsc --p tsconfig-main-only.json",
         "serve-main-only-example": "ts-node -P tsconfig-main-only.json examples/main-only/src/main/main.ts",
+        "build-internationalization-example": "tsc --p tsconfig-internationalization.json",
+        "serve-internationalization-example": "ts-node -P tsconfig-internationalization.json examples/internationalization/src/main/main.ts --the-way.core.scan.enabled=true",
         "build-heroes-rest-example": "tsc --p tsconfig-heroes-rest.json",
-        "serve-heroes-rest-example": "ts-node -P tsconfig-heroes-rest.json examples/heroes-rest/src/main/main.ts --the-way.core.scan.enabled=true --the-way.core.scan.path=dist/examples/heroes-rest/src/main",
-        "run-heroes-rest-example": "yarn build-heroes-rest-example && node dist/examples/heroes-rest/src/main/main.js --the-way.core.scan.enabled=true --the-way.core.scan.path=dist/examples/heroes-rest/src/main",
+        "serve-heroes-rest-example": "ts-node -P tsconfig-heroes-rest.json examples/heroes-rest/src/main/main.ts --the-way.core.scan.enabled=true",
+        "run-heroes-rest-example": "yarn build-heroes-rest-example && node dist/examples/heroes-rest/src/main/main.js --the-way.core.scan.enabled=true",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -27,7 +29,7 @@
         "typescript": "^4.2.4"
     },
     "dependencies": {
-        "@umberware/the-way": "^1.0.0-Beta.1.5",
+        "@umberware/the-way": "^1.0.0-Beta.2.5",
         "rxjs": "6.6.7"
     }
 }
