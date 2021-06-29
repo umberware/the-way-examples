@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "ES2017",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "../../dist/examples/heroes-rest/src/main",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strict": true,
+        "strictPropertyInitialization": false
+    },
+    "include": [
+        "examples/heroes-rest/**/*.ts"
+    ]
+}

@@ -1,4 +1,4 @@
-import { Get, Inject, PathParam, Rest } from '@umberware/the-way';
+import { BodyParam, Get, Inject, PathParam, Post, Rest } from '@umberware/the-way';
 
 import { Observable } from 'rxjs';
 
@@ -9,6 +9,10 @@ import { HeroService } from './hero.service';
 export class HeroRest {
     @Inject heroService: HeroService;
 
+    @Post('', true)
+    public createAHero(@BodyParam hero: HeroModel): HeroModel {
+        return this.heroService.createAHero(hero);
+    }
     @Get(':id')
     public getHeroById(@PathParam('id') id: string): Observable<HeroModel> {
         return this.heroService.getHeroById(parseInt(id, 10));

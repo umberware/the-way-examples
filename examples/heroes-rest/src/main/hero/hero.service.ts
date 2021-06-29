@@ -12,6 +12,11 @@ export class HeroService {
         power: 1349
     }]
 
+    public createAHero(hero: HeroModel): HeroModel {
+        hero.id = (Math.floor(Math.random() * 100)) + new Date().getTime();
+        this.heroesMock.push(hero)
+        return hero;
+    }
     public getHeroById(id: number): Observable<HeroModel> {
         const heroFound = this.heroesMock.find((hero: HeroModel) => hero.id === id);
         if (!heroFound) {
