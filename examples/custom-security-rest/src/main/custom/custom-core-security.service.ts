@@ -1,4 +1,4 @@
-import { CoreLogger, CoreSecurityService, Inject, PathMapModel, Service, TokenClaims } from '@umberware/the-way';
+import { CoreLogger, CoreSecurityService, Inject, Service, TokenClaims } from '@umberware/the-way';
 
 @Service(CoreSecurityService)
 export class CustomCoreSecurityService extends CoreSecurityService {
